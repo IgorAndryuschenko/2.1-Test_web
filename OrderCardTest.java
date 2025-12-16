@@ -65,7 +65,7 @@ public class OrderCardTest {
 
         //Проверяем текст
         String actualText = successMessage.getText().trim();
-        String expectedText = "Ваша заявка успешно отправлена";
+        String expectedText = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
 
         assertTrue(actualText.contains(expectedText),
                 "Ожидалось сообщение содержащее: '" + expectedText +
